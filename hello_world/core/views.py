@@ -6,6 +6,6 @@ def index(request):
         request,
         "index.html",
         {
-            "title": "Django example",
+            "title": "Prabakaranraja Portfolio",
         },
     )
