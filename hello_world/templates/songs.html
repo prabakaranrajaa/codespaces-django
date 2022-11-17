@@ -1,0 +1,75 @@
+{% load django_browser_reload %}
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{% static 'main.css' %}">
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <link rel="stylesheet" href="{% static 'css/songs.css' %}">
+
+<body>
+  <div class="content">
+    <b>
+      <center>
+        <h1>MY FAVOURITE SONGS</h1>
+      </center>
+    </b>
+    <hr>
+    <label>
+      <h1>Audio Songs</h1>
+    </label><br>
+    <div class="center-screen">
+      <table>
+        <tr>
+          <td><img src="{% static 'pics/96.jpg' %}" alt="96 Song Poster"></td>
+          <td><audio controls>
+              <source src="{% static 'songs/96.mp3' %}" type="audio/mp3">
+            </audio></td>
+          <td><b>96 Theme Music</b></td>
+        </tr>
+        <tr>
+          <td><img src="{% static 'pics/Naam.jpg' %}" alt="Adi Penne Song Poster"></td>
+          <td><audio controls>
+              <source src="{% static 'songs/Adi Penne.mp3' %}" type="audio/mp3">
+            </audio></td>
+          <td><b>Adi Penne Song</b></td>
+        </tr>
+        <tr>
+          <td><img src="{% static 'pics/Tuje.jpg' %}" alt="Tuje Song Poster"></td>
+          <td><audio controls>
+              <source src="{% static 'songs/Tuje.mp3' %}" type="audio/mp3">
+            </audio></td>
+          <td><b>Tuje Dekha To Ye Song</b></td>
+        </tr>
+        <tr>
+          <td><img src="{% static 'pics/Raaone.jpg' %}" alt="Chammak Song Poster"></td>
+          <td><audio controls>
+              <source src="{% static 'songs/Chammak.mp3' %}" type="audio/mp3">
+            </audio></td>
+          <td><b>Chammak Challo Song </b></td>
+        </tr>
+      </table>
+    </div>
+    <label>
+      <h1>Video Songs</h1>
+    </label><br>
+    <table>
+      <tr <label>
+        <h3><em><b>Naam Series Theme❤️❤️</b></em></h3></label>
+        <td>
+            <div class="center-screen">
+            <video controls>
+              <source src="{% static 'songs/Naam.mp4' %}" type="video/mp4">
+            </video>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</head>
+
+</html>

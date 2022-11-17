@@ -1,0 +1,34 @@
+
+body {
+background-color: #EAF6F6;
+
+}
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+p,h1{
+  text-align: center;
+}
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 10vh;
+}
+
+hr {
+  border-style:none;
+  border-top-style:dotted;
+  border-color: grey;
+  border-width:5px;
+  width:5%;
+}
+img{
+  height: 300px;
+}
+h3{
+  color: red;
+  text-align: center;
+}

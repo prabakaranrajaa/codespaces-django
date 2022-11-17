@@ -1,4 +1,4 @@
-# GitHub Codespaces ♥️ Django
+# Prabakaranraja ♥️ Django
 
 Welcome to your shiny new Codespace running Django! We've got everything fired up and running for you to explore Django.
 
@@ -10,4 +10,7 @@ To run this application:
 
 ```
 python manage.py runserver
+```
+```
+prabakaranraja@gmail.com
 ```

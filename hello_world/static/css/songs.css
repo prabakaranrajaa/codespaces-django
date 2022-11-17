@@ -1,0 +1,20 @@
+body{
+  background-image:url('music.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+img{
+  height: 45px;
+  width: 55px;
+}
+td{
+  color:Purple;
+  font-size: 20px;
+}
+body{
+color: navy;
+}
+label{
+  color: maroon;
+}

@@ -1,0 +1,34 @@
+{% load django_browser_reload %}
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>My Hobbies</title>
+</head>
+<link rel="stylesheet" href="{% static 'main.css' %}">
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+<link rel="stylesheet" href="{% static 'css/obbies.css' %}">
+
+<body>
+	<div class="content">
+		<h3 id="Hobbies">My Hobbies</h3>
+		<div class="center-screen">
+			<ol>
+				<li class="read"><a href="/pics.html">Reading Books</a></li>
+
+				<br>
+
+				<li class="song"><a href="/songs.html">Hearing Songs</a></li>
+
+				<br>
+
+				<li id="Exercise"><a href="https://www.youtube.com/watch?v=N2wR1OWhD4s">Exercise</a></li>
+			</ol>
+		</div>
+	</div>
+</body>
+
+</html>

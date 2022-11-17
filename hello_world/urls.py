@@ -20,6 +20,12 @@ from hello_world.core import views as core_views
 
 urlpatterns = [
     path("", core_views.index),
+    path("index.html/", core_views.index),
+    path("my.html/", core_views.mysite),
+    path("contactme.html/", core_views.contact),
+    path("hobbies.html/", core_views.hobbies),
+    path("songs.html/", core_views.songs),
+    path("pics.html/", core_views.pics),
     path("admin/", admin.site.urls),
     path("__reload__/", include("django_browser_reload.urls")),
 ]

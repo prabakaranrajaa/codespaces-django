@@ -1,0 +1,22 @@
+body{
+  background-image:url('music.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*******************CLASS SELECTORS*****************/
+
+.read{
+  font-size: 30px;
+}
+.song{
+  font-size: 30px;
+}
+/********************ID SELECTORS*****************/
+#Exercise{
+  font-size: 30px;
+}
+#Hobbies{
+  font-size: 50px;
+}

@@ -22,7 +22,7 @@ body {
   }
   
   .App-header {
-    background-color: #282c34;
+    background-color: #28342a;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -44,5 +44,5 @@ body {
     font-size: 0.75rem;
   }
   img {
-    border-radius: 500%;
+    border-radius: 50%;
   }
